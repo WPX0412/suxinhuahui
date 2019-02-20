@@ -1,0 +1,236 @@
+/*清除默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navigation-box{
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    top: 0;
+    z-index: 999;
+}
+.navigation{
+    width: 90%;
+    height: 79px;
+    margin: 0 auto;
+}
+.navigation img{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.suxin-title{
+    float: right;
+    line-height: 79px;
+    margin-right: 50px;
+}
+.suxin-title a{
+    margin-left: 20px;
+    color: #000;
+    margin-top: 30px;
+}
+.suxin-title a:nth-child(2){
+    color: #51A2CF;
+}
+.suxin-title a:hover{
+    color: #51A2CF;
+}
+/*素馨花卉顶部导航结束*/
+
+/*中间*/
+.title {
+    text-align: center;
+    height: 120px;
+    background: #eee;
+}
+.title h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 30px 30px;
+}
+section {
+    background: #eee;
+    overflow: hidden;
+    padding: 30px;
+}
+section .content-box {
+    width: 970px;
+    margin:  0 auto;
+}
+section .left{
+    background: #fff;
+    width: 75%;
+    float: left;
+}
+section .left .left-list{
+    padding: 30px;
+}
+section .left .left-list li{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f2f5;
+    margin-bottom: 30px;
+}
+section .left .left-list .page{
+    display: flex;
+    justify-content: center;
+}
+section .left .left-list .page .active{
+    background: #f86867;
+    border-color: #f86867;
+    color: #fff;
+}
+
+section .left .left-list .page div{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    text-align: center;
+    color: #76838f;
+}
+
+section .left .left-list div h4{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+ h4:hover{
+    color: #16B0DC;
+    text-decoration: underline;
+}
+section .left .left-list div .new{
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+section .left .left-list span{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+section .left .left-list li div{
+    overflow: hidden;
+}
+
+section .left .left-list div img{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-right: 20px;
+}
+
+section .right{
+    background: #fff;
+    width: 25%;
+    float: left;
+    background: #eee;
+    /*padding: 0 15px;*/
+}
+section .right .recommend{
+    padding: 20px;
+    margin-left: 30px;
+    background: #fff;
+}
+section .right .recommend .useless{
+    position: relative;
+}
+
+section .right .recommend input{
+    border-radius: 200px;
+    width: 155px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #eee;
+    padding-left: 20px;
+
+}
+section .right .recommend i{
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+section .right .recommend p {
+    font-size: 16px;
+    color: #2a333c;
+}
+section .right .recommend .for{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+section .right .recommend .for ul{
+    margin-top: 10px;
+}
+
+section .right .recommend .for li{
+    padding: 10px;
+    border: 1px solid #eee;
+    /*text-align: center;*/
+}
+section .right .recommend .for li span{
+    color: #2a333c;
+    font-size: 15px;
+}
+
+section .right .recommend .for h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+}
+.linksnav{
+    padding: 10px 0;
+    background: #fff;
+}
+.copyright{
+    height: 180px;
+    background: #eee;
+}
+.qq{
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.qq .qi{
+    font-size: 25px;
+}
+.qq i{
+    font-size: 30px;
+    line-height: 57px;
+    margin-right: 10px;
+    color:#2196F3;
+}
+.qq i:first-child{
+    /*margin-left: 550px;*/
+    color: green;
+}
+.police{
+    height: 123px;
+}
+.police p{
+    color: #62a8ea;
+    text-align: center;
+}
+.police p.nine{
+    color: #aaa;
+}
+.police p.ten{
+    color: #aaa;
+}
+.police img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.info img:last-child{
+    margin: 0;
+}
+/*素馨花卉工作室结束*/

@@ -1,0 +1,325 @@
+/*清除默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*素馨花卉顶部导航开始*/
+.suxin-header{
+    width: 100%;
+    height: 855px;
+    background: url("../img/banner.jpg") no-repeat center center/100% 100%;
+    position: relative;
+}
+.navigation-box{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.2);
+    position:fixed;
+    top: 0;
+    z-index: 999;
+}
+.suxin-header img{
+    width: 100%;
+}
+.navigation{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+}
+.navigation img{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.suxin-title{
+    float: right;
+    line-height: 79px;
+}
+.suxin-title a{
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+.suxin-title a:nth-child(1){
+    color: #51A2CF;
+}
+.suxin-title a:hover{
+    color: #51A2CF;
+}
+.suxin-header h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+.suxin-header .navigation-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    margin-bottom: 50px;
+}
+
+.suxin-left{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    left: 234px;
+    top: 195px;
+    /*背景图片*/
+    background-image: url("../img/icon-slides.png");
+    background-position: 83px 0;
+}
+.suxin-left:hover{
+    background-position: 0 0;
+}
+.suxin-right{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    top: 195px;
+    background-image: url("../img/icon-slides.png");
+    background-position: 42px 0;
+}
+.suxin-right:hover{
+    background-position: 125px 0;
+}
+.suxin-dots{
+    width: 80px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.suxin-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin: 0 5px;
+}
+.suxin-hover{
+    background: #616161;
+}
+/*素馨花卉顶部导航结束*/
+/*素馨花艺开始*/
+.suxin-floral{
+    width: 100%;
+    height: 629px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.suxin-floral h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.world{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #5e7387;
+    margin:0 auto;
+}
+.kind{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.stage{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    display: inline-block;
+}
+.item img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.item h4{
+    font-size: 18px;
+    margin-bottom: 11px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+}
+.item p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #757575;
+    margin: 0 0 11px;
+    overflow: hidden;
+}
+.btn{
+    background: #f96868;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn i{
+    color: #9c2115;
+    line-height: 36px;
+    margin-right: 15px;
+    width: 300px;
+}
+
+/*素馨花艺结束*/
+/*素馨花语开始*/
+.language{
+    width: 100%;
+    background: #F5F5F5;
+    float: left;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.language-title{
+    height: 43px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.language-title h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.varied{
+    width: 1170px;
+    margin: 0 auto;
+}
+.varied .item1 .left {
+    float: left;
+}
+.varied .item1 .right {
+    float: left;
+}
+
+.varied li{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.varied img{
+    width: 160px;
+    height: 96px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 11px;
+}
+.varied h4{
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.varied h4:hover{
+    color: #16B0DC;
+}
+.varied p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #76838f;
+    margin: 5px 0 0 0;
+}
+.varied p.date{
+    margin-right: 15px;
+}
+.varied p.wang{
+    margin-right: 15px;
+}
+/*素馨花语结束*/
+/*素馨花卉工作室*/
+.workroom{
+    width: 100%;
+    height: 1013px;
+    float: left;
+}
+.workroom-title{
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.workroom-title h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    color: #37474f;
+}
+.info{
+    height: 860px;
+    margin: 30px auto 0;
+}
+.info p{
+    font-family: 微软雅黑, 'Microsoft YaHei';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: #AAA;
+    margin-bottom: 10px;
+}
+.info img{
+    width: 530px;
+    height: 340px;
+    display: block;
+    margin: 40px auto 86px;
+
+}
+.copyright{
+    height: 180px;
+    background: #eee;
+}
+.qq{
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.qq .qi{
+    font-size: 25px;
+}
+.qq i{
+    font-size: 30px;
+    line-height: 57px;
+    margin-right: 10px;
+    color:#2196F3;
+}
+.qq i:first-child{
+    color: green;
+}
+.police{
+    height: 123px;
+}
+.police p{
+    color: #62a8ea;
+    text-align: center;
+}
+.police p.nine{
+    color: #aaa;
+}
+.police p.ten{
+    color: #aaa;
+}
+.police img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.info img:last-child{
+    margin: 0;
+}
+/*素馨花卉工作室结束*/

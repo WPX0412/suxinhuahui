@@ -1,0 +1,197 @@
+/*清除默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*transform: scale(1.1);*/
+a{
+    text-decoration: none;
+}
+
+.navigation-box{
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    top: 0;
+    z-index: 999;
+}
+.navigation{
+    width: 90%;
+    height: 79px;
+    margin: 0 auto;
+}
+.navigation img{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.suxin-title{
+    float: right;
+    line-height: 79px;
+    margin-right: 50px;
+}
+.suxin-title a{
+    margin-left: 20px;
+    color: #000;
+    margin-top: 30px;
+}
+.suxin-title a:nth-child(5){
+    color: #51A2CF;
+}
+.suxin-title a:hover{
+    color: #51A2CF;
+}
+/*素馨花卉顶部导航结束*/
+
+/*中间*/
+section {
+    background: #fff;
+    overflow: hidden;
+}
+section .content-box {
+    overflow: hidden;
+}
+section .content-box ul {
+    overflow: hidden;
+    width: 100%;
+}
+section .content-box li{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+section .content-box li .one {
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+/*section .content-box li .content:hover {*/
+    /*animation: mysecond 1s;*/
+    /*animation-fill-mode : forwards;*/
+/*}*/
+section .content-box li .content {
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+    /*opacity: 0.3;*/
+    /*z-index: 1;*/
+}
+section .content-box li .content h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+section .content-box li .content .icon{
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    margin: 10px auto;
+}
+section .content-box li .content button{
+    border: 1px solid #e4eaec;
+    color: #fff;
+    background-color: transparent;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    border-radius: 3px;
+}
+section .content-box li .content button:hover{
+    background: #fff;
+}
+section .content-box li .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.3;
+    /*z-index: 2;*/
+}
+section .content-box li .background:hover {
+    background: #000000;
+    opacity: 0.6;
+    /*animation: myfirst 1s;*/
+    /*animation-fill-mode : forwards;*/
+    /*z-index: 2;*/
+}
+/*section .content-box li:hover {*/
+    /*!*animation: myfirst 1s;*!*/
+    /*!*animation-fill-mode : forwards;*!*/
+/*}*/
+/*@keyframes mysecond*/
+/*{*/
+    /*from {*/
+        /*z-index: 1;*/
+    /*}*/
+    /*to {*/
+        /*z-index: 3;*/
+    /*}*/
+/*}*/
+/*@keyframes myfirst*/
+/*{*/
+    /*from {*/
+        /*opacity: 0.3;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 0.6*/
+    /*}*/
+/*}*/
+
+
+.linksnav{
+    padding: 10px 0;
+    background: #fff;
+}
+.copyright{
+    height: 180px;
+    background: #eee;
+}
+.qq{
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.qq .qi{
+    font-size: 25px;
+}
+.qq i{
+    font-size: 30px;
+    line-height: 57px;
+    margin-right: 10px;
+    color:#2196F3;
+}
+.qq i:first-child{
+    color: green;
+}
+.police{
+    height: 123px;
+}
+.police p{
+    color: #62a8ea;
+    text-align: center;
+}
+.police p.nine{
+    color: #aaa;
+}
+.police p.ten{
+    color: #aaa;
+}
+.police img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.info img:last-child{
+    margin: 0;
+}
+/*素馨花卉工作室结束*/

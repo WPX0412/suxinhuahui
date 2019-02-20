@@ -1,0 +1,132 @@
+/*清除默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*素馨花卉顶部导航开始*/
+.suxin-header{
+    /*width: 100%;*/
+    /*float: left;*/
+    /*background-image: url("../img/about.JPG");*/
+}
+.navigation-box{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.2);
+    position:fixed;
+    top: 0;
+    z-index: 999;
+}
+.suxin-header img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.navigation{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+}
+.navigation img{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.suxin-title{
+    float: right;
+    line-height: 79px;
+}
+.suxin-title a{
+    margin-left: 20px;
+    color: #fff;
+    /*float: right;*/
+    margin-top: 30px;
+}
+.suxin-title a:hover{
+    color: #51A2CF;
+}
+.suxin-title a:last-child{
+    color: #51A2CF;
+}
+
+/*素馨花卉顶部导航结束*/
+
+/*素馨花卉工作室*/
+.workroom{
+    /*width: 100%;*/
+    /*height: 1013px;*/
+    /*float: left;*/
+    /*padding: 40px;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 50px;*/
+}
+.info{
+    /*height: 860px;*/
+    /*margin: 50px auto 0;*/
+}
+.info .infoTop{
+
+}
+.info p{
+    font-family: 微软雅黑, 'Microsoft YaHei';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+}
+.info img{
+    width: 530px;
+    height: 340px;
+    display: block;
+    margin: 40px auto 86px;
+
+}
+.copyright{
+    height: 180px;
+    background: #eee;
+}
+.qq{
+    height: 57px;
+    display: flex;
+    justify-content: center;
+}
+.qq .qi{
+    font-size: 25px;
+}
+.qq i{
+    font-size: 30px;
+    line-height: 57px;
+    margin-right: 10px;
+    color:#2196F3;
+}
+.qq i:first-child{
+    /*margin-left: 550px;*/
+    color: green;
+}
+.police{
+    height: 123px;
+}
+.police p{
+    color: #62a8ea;
+    text-align: center;
+}
+.police p.nine{
+    color: #aaa;
+}
+.police p.ten{
+    color: #aaa;
+}
+.police img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.info img:last-child{
+    margin: 0;
+}
+/*素馨花卉工作室结束*/
