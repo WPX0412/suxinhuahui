@@ -7,6 +7,19 @@
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'iconfont';  /* project id 1019598 */
+    src: url('//at.alicdn.com/t/font_1019598_k4y3y6smct.eot');
+    src: url('//at.alicdn.com/t/font_1019598_k4y3y6smct.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.svg#iconfont') format('svg');
+}
+i {
+    font-family: iconfont;
+    font-style: normal;
+}
 /*素馨花卉顶部导航开始*/
 .suxin-header{
     width: 100%;
