@@ -80,10 +80,6 @@ section .content-box li .one {
     width: 100%;
     height: 500px;
 }
-/*section .content-box li .content:hover {*/
-    /*animation: mysecond 1s;*/
-    /*animation-fill-mode : forwards;*/
-/*}*/
 section .content-box li .content {
     height: 150px;
     position: absolute;
@@ -95,8 +91,6 @@ section .content-box li .content {
     margin: auto;
     color: #fff;
     font-size: 14px;
-    /*opacity: 0.3;*/
-    /*z-index: 1;*/
 }
 section .content-box li .content h3{
     font-size: 24px;
@@ -127,39 +121,14 @@ section .content-box li .background {
     height: 100%;
     background: #000000;
     opacity: 0.3;
-    /*z-index: 2;*/
 }
 section .content-box li .background:hover {
     background: #000000;
     opacity: 0.6;
-    /*animation: myfirst 1s;*/
-    /*animation-fill-mode : forwards;*/
-    /*z-index: 2;*/
 }
-/*section .content-box li:hover {*/
-    /*!*animation: myfirst 1s;*!*/
-    /*!*animation-fill-mode : forwards;*!*/
+/*section .content-box li .background:hover one{*/
+    /*!*transform: scale(1.5);*!*/
 /*}*/
-/*@keyframes mysecond*/
-/*{*/
-    /*from {*/
-        /*z-index: 1;*/
-    /*}*/
-    /*to {*/
-        /*z-index: 3;*/
-    /*}*/
-/*}*/
-/*@keyframes myfirst*/
-/*{*/
-    /*from {*/
-        /*opacity: 0.3;*/
-    /*}*/
-    /*to {*/
-        /*opacity: 0.6*/
-    /*}*/
-/*}*/
-
-
 .linksnav{
     padding: 10px 0;
     background: #fff;
